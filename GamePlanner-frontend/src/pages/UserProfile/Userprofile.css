@@ -1,0 +1,94 @@
+  
+  .user-profile-container {
+    margin-top: 10px;
+    margin-left: 150px;
+  }
+
+  .user-picture {
+    border: 1px solid grey;
+    border-radius: 10px;
+    background-color:rgb(253, 255, 232);
+    padding: 10px;
+    height: 100%;
+    justify-content: center;
+  }
+
+  .user-picture img {
+    max-width: 40%;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin-top: 20%;
+    margin-left: 33.3%;
+    margin-right: 33.3%;
+  }
+
+  .user-picture h2 {
+    max-width: 100%;
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  .user-basic-data {
+    border: 1px solid grey;
+    border-radius: 10px;
+    padding: 10px;
+    margin-right: 100px;
+    font-size: 20px;
+    height: 100%;
+  }
+  .user-basic-data h2 {
+    margin-top: 0;
+  }
+  .user-other-interests {
+    border: 1px solid grey;
+    border-radius: 10px;
+    padding: 10px;
+    margin-top: 10px;
+  }
+  .user-billing-details {
+    border: 1px solid grey;
+    border-radius: 10px;
+    padding: 10px;
+    margin-top: 10px;
+    margin-right: 100px;
+  }
+  .user-other-interests h2,
+  .user-billing-details h2 {
+    margin-top: 20px;
+  }
+
+  .labels {
+    /* width: 20%; */
+  }
+  .lables p{
+    text-align: right;
+  }
+
+  .colons {
+    width: 5%;
+  }
+  .colons p {
+    text-align: left;
+  }
+  
+  .data p{
+    text-align: left;
+  }
+  
+  button {
+    font-size: 24px; /* adjust as needed */
+    padding: 20px 50px; /* adjust as needed */
+    background-color: #f8f8f8;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease;
+    cursor: pointer;
+    outline: none;
+    margin-top: 80px;
+  }
+  
+  button:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+  }

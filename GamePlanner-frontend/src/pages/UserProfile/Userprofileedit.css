@@ -1,0 +1,33 @@
+label {
+    font-size: medium;
+  }
+
+  input, select {
+    border: 1px solid #ccc;
+    border-radius: 0.25rem; 
+  }
+
+  input:focus {
+    outline: none;
+    border-color: #007bff;
+    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+  }
+  
+  button[type="submit"] {
+    background-color: #007bff;
+    border: none;
+    color: #fff;
+    font-size: 1.2rem;
+    padding: 0.5rem 1rem;
+    border-radius: 0.25rem;
+    cursor: pointer;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }
+  
+  .error {
+    color: red;
+    margin-top: 1rem;
+  }
+  
+  

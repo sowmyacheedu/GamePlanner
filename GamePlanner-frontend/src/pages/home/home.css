@@ -1,0 +1,83 @@
+/* .home {
+    position: absolute;
+    background-image: url("../../images/BG1.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100vw;
+    height: 100vh;
+   
+  }
+ .home-content {
+    margin-top: 200px;
+    padding-top: 0px;
+    text-align: center;
+    
+  }
+    
+ .home-content h1 {
+    font-size: 70px;
+    font-weight: bold;
+    margin-bottom: 30px;
+    color: #110245;
+  }
+
+  button {
+    font-size: 24px; 
+    padding: 20px 50px; 
+    background-color: #ffffff;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease;
+    cursor: pointer;
+    outline: none;
+    margin: 10px;
+  }
+  
+  button:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+  } */
+  
+
+  .home {
+    position: absolute;
+    background-image: url("../../images/BG1.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100vw;
+ 
+  }
+ .home-content {
+    margin-top: 200px;
+    padding-top: 0px;
+    text-align: center;
+ 
+  }
+ 
+ .home-content h1 {
+    font-size: 70px;
+    font-weight: bold;
+    margin-bottom: 30px;
+    color: #110245;
+  }
+ 
+  button {
+    font-size: 24px; /* adjust as needed */
+    padding: 20px 50px; /* adjust as needed */
+    background-color: #ffffff;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease;
+    cursor: pointer;
+    outline: none;
+    margin: 10px;
+  }
+ 
+  button:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+  }

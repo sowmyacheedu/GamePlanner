@@ -1,0 +1,115 @@
+.search-container {
+    background-color: #484ac9;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-image: url("../../images/BG1.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100vw;
+    
+
+  }
+  
+  .search-box {
+    background-color: #f8f6f6;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+    margin-left: 100px;
+    margin-right: 100px;
+    border-radius: 10px;
+    margin-top: 170px;
+    background-color: rgba(255, 255, 255, 0.5); 
+  }
+  
+  .search-title {
+    font-size: 3rem;
+    margin-bottom: 20px;
+  }
+  
+  .search-bar {
+    display: flex;
+    background-color: #212e3c;
+    border: black;
+    border-radius: 10px;
+    align-items: center;
+    border-radius: 25px;
+    padding: 10px 15px;
+  }
+
+  input {
+    position: relative  ;
+    width: 500px;
+    height: 50px;
+    border: none;
+    outline: none;
+    padding: 20px;
+    padding-right: 25px;
+  }
+
+  .google-logo {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 16px;
+    padding: 16px;
+    letter-spacing: 0.0575em; /* 0.69px */
+    color: #f9fafb;
+  }
+
+  .suggestions-box {
+    position: fixed;
+    width: 100%;
+    max-width: 500px;
+    margin-top: 20px;    
+  }
+  
+  .suggestion {
+    padding: 10px;
+    cursor: pointer;
+  }
+  
+  .suggestion:hover {
+    background-color: #f2f2f2;
+  }
+  
+  .nextButton {
+    margin-left: 45%;
+    border: none;
+    width: 100px;
+    padding: 8px 10px;
+    cursor: pointer;
+    color: #ffffff;  
+    line-height: 20px;
+    background-color: #f40808;
+    border-radius: 6px;
+    font-size: 16px;
+    font-weight: 4500;
+    transition: background-color 0.3s ease;
+    justify-content:right; 
+  }
+
+  .popularFranchises {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    justify-content: center;
+
+    
+  }
+  
+  .popularFranchise {
+    background-color: #41b6e6;
+    color: #fff;
+    padding: 8px 16px;
+    margin: 10px;
+    border-radius: 4px;
+    cursor: pointer;
+    
+  }

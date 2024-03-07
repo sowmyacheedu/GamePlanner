@@ -1,0 +1,42 @@
+.why-join-us {
+    margin: 0 auto;
+    max-width: 800px;
+    padding: 20px;
+  }
+  
+  .why-join-us h2 {
+    font-size: 36px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 40px;
+    margin-top: 70px;
+    color: darkblue;
+  }
+  
+  .benefits {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 40px;
+  }
+  
+  .benefit {
+    width: calc(50% - 20px);
+    margin-bottom: 20px;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.2);
+  }
+  
+  .benefit h3 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .benefit p {
+    font-size: 18px;
+    line-height: 1.5;
+    color: #333;
+  }
+  
